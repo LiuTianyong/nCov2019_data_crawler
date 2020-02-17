@@ -101,6 +101,29 @@ CREATE TABLE `covid_virus_trip` (
 ) ENGINE=InnoDB AUTO_INCREMENT=2451 DEFAULT CHARSET=utf8
 
 
+CREATE TABLE `covid_txnew_track` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `confid` varchar(255) DEFAULT NULL,
+  `province` varchar(255) DEFAULT NULL,
+  `city` varchar(255) DEFAULT NULL,
+  `county` varchar(255) DEFAULT NULL,
+  `location` varchar(255) DEFAULT NULL,
+  `user_num` varchar(255) DEFAULT NULL,
+  `user_name` varchar(255) DEFAULT NULL,
+  `other_info` varchar(255) DEFAULT NULL,
+  `track` varchar(255) DEFAULT NULL,
+  `target` varchar(255) DEFAULT NULL,
+  `pub_time` varchar(255) DEFAULT NULL,
+  `source` varchar(255) DEFAULT NULL,
+  `source_url` varchar(255) DEFAULT NULL,
+  `contact` varchar(255) DEFAULT NULL,
+  `contact_detail` varchar(255) DEFAULT NULL,
+  `hashtag` varchar(255) DEFAULT NULL,
+  `lasttime` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8
+
+
 ```
 ### 捐赠
 #
