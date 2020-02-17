@@ -2,7 +2,7 @@
 
 简体中文 | [English](README.en.md)
 
-本项目为2019新型冠状病毒（COVID-19/2019-nCoV）疫情状况的时间序列数据仓库，数据来源为[丁香园](https://ncov.dxy.cn/ncovh5/view/pneumonia)和[南都传媒](https://m.mp.oeeee.com/h5/pages/v20/nCovcase/guangdong.html)。
+本项目为2019新型冠状病毒（COVID-19/2019-nCoV）疫情状况的时间序列数据仓库，数据来源为[丁香园](https://ncov.dxy.cn/ncovh5/view/pneumonia)、[南都传媒](https://m.mp.oeeee.com/h5/pages/v20/nCovcase/guangdong.html)和[腾讯新闻](https://xw.qq.com/act/fytrace?from=singlemessage&isappinstalled=0&scene=1&clicktime=1581821123&enterid=1581821123)。
 #
 本项目数据包括：轨迹数据，同乘数据，新闻数据，谣言数据（后续会更新其他方面，尽量保持数据仓库完整）
 #
