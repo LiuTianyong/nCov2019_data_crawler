@@ -10,10 +10,11 @@
 后期会部署服务器并提供API的使用和JSON数据接口，如有需要可以关注，后期我会进行数据清洗以后进行封装调用接口。
 
 ###   CSV文件列表     
-*       新闻数据    covid_news.csv 
-        轨迹数据    covid_patient_track.csv
-        谣言数据    rumor.csv
-        同乘数据    covid_virus_trip.csv
+*       新闻数据            covid_news.csv 
+        轨迹数据            covid_patient_track.csv
+        谣言数据            rumor.csv
+        同乘数据            covid_virus_trip.csv
+        腾讯新闻轨迹数据     covid_txnew_track.csv
 
 ###   项目介绍
 #
