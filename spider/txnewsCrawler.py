@@ -56,7 +56,7 @@ class PatientTrajectiory:
 
     def run(self):
         url_format = 'https://pacaio.match.qq.com/virus/trackList?page={}&num=10&&callback=__jp{}'
-        for i in range(402):
+        for i in range(99999):
             while True:
                 try:
                     url = url_format.format(i, i + 1)
@@ -64,6 +64,9 @@ class PatientTrajectiory:
 
                     res_json = res.text.replace('__jp{}('.format(i + 1), '')
                     result = json.loads(res_json[:-1])
+                    if len(result['data']['list']) == 0:
+                        break
+
                     if result['code'] == 0:
                         self.save_data(result)
                         self.request_error_count = 0
